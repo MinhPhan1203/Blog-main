@@ -133,6 +133,14 @@ html{
     opacity: 0.6;
 }
 
+.content .content-bottom{
+    text-align: center;
+    padding: 100px 0 0;
+    font-size: 30px;
+    color: #fff;
+    opacity: 0.6;
+}
+
 .content .content-main li{
     padding: 20px 0 0;
     font-size: 25px;
@@ -156,13 +164,13 @@ html{
 
 .link{
     text-align: center;
-    margin: 100px;
+    margin: 50px;
 }
 
 .link a{
     font-size: 45px;
     color: #ccc;
-    padding: 0 20px 0;
+    padding: 0 30px 0;
 }
 
 
@@ -230,7 +238,6 @@ html{
     .content{
         width: 600px ;
     }
-    
 }
 
 /* MOBILE */
@@ -250,7 +257,7 @@ html{
         display: inline-block;
         cursor: pointer;
     }
-   
+
     .header .logo-nav{
         display: none;
     }
@@ -259,21 +266,20 @@ html{
         display: inline-block;
         text-align: left;
     }
-    
 
     .navbar > li{
         display: block;
     }
 
     .img-box{
-       height: 200px;
-       width: 75%;
-       top: 250px;
+        height: 200px;
+        width: 75%;
+        top: 250px;
     }
 
     .img-box .img-image{
-       height: 200px;
-       width: 100%; 
+        height: 200px;
+        width: 100%;
     }
 
     .img-box .img-content p{
@@ -297,13 +303,17 @@ html{
     .content .content-subheading{
         font-size: 20px;
     }
+    
+    .content .content-bottom{
+        font-size: 15px;
+    }
 
     .content .content-main li, .content .content-main li a{
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .link a{
-        padding: 0 4px 0;
+        padding: 0 10px 0;
     }
 
     .fa-brands{
