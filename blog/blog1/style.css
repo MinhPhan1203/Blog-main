@@ -53,60 +53,23 @@ html{
     display: inline-block;
 }
 
-.navbar li{
-    display: inline-block;
-    position: relative;
-    padding: 17px 25px 17px;
-}
-
-.navbar > li{
-    display: inline-block;
-}
-
-.navbar li a{
+.navbar .fa-arrow-left{
     color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 900;
+    font-size: 30px;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: fixed;
 }
 
-.navbar li a:hover, a:active{
+.navbar i{
+    cursor: pointer;
+}
+
+.navbar .fa-arrow-left:hover, .fa-arrow-left:active{
     color: #435585;
 }
 
-.blog-part .blog{
-    height: 100px;
-    width: 50%;
-    background-color: #200E3A;
-    top: 200px;
-    left: 50%;
-    transform: translate(-50%);
-    border-radius: 20px;
-    position: relative;
-    margin: 100px 0 0 0;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    border: 1px solid transparent;
-    color: #ccc;
-    font-size: 40px;
-    font-weight: 600;
-    transition: 0.5s;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-}
-
-.blog-part .blog:hover{
-    top: 180px;
-    color: #8199db;
-}
-
-.blog-part #blog1{
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://i.pinimg.com/originals/f1/63/11/f16311fd0c32786525f471c685bc516e.gif") center center / cover no-repeat;  
-}
-
-.blog-part #blog2{
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://i.pinimg.com/originals/ca/26/2e/ca262e0354eea311c41134c3e4bc3bc2.gif") center center / cover no-repeat;  
-}
 
 .footer{
     position: relative;
@@ -184,7 +147,7 @@ html{
     .navbar > li{
         display: block;
     }
-    
+
     .blog-part .blog{
         font-size: 15px;
     }
