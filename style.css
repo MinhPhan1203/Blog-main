@@ -28,10 +28,10 @@ html{
     border-radius: 10px;
     position: fixed;
     z-index: 1;
-} 
+}
 
 .header .logo-nav{
-    float: right;   
+    float: right;
     padding: 0 30px;
     font-size: 24px;
     display: block;
