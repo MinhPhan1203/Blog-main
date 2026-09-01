@@ -84,11 +84,9 @@ html{
 .main{
     width: 800px;
     max-width: 100%;
-    padding: 100px 0 0 ;
+    padding: 100px 20px 0 ;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
     line-height: 1.6;
     text-align: justify ;
 }
@@ -188,17 +186,6 @@ html{
         overflow: hidden;
     }
 
-    .header .mobile-menu{
-        position: absolute;
-        color: #fff;
-        line-height: 60px;
-        padding: 0 20px;
-        top: 0;
-        right: 0;
-        font-size: 25px;
-        display: inline-block;
-        cursor: pointer;
-    }
     .header .logo-nav{
         display: none;
     }
@@ -212,7 +199,19 @@ html{
         display: block;
     }
 
-    .blog-part .blog{
+    .main{
+        width: 500px;
+    }
+
+    .main .main-heading{
+        font-size: 50px;
+    }
+
+    .main .main-subheading{
+        font-size: 17px;
+    }
+
+    .main .main-content{
         font-size: 15px;
     }
 
