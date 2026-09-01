@@ -186,6 +186,8 @@ html{
     }
     
     .blog-part .blog{
+        width: 80%;
+        height: 80px;
         font-size: 15px;
     }
 
