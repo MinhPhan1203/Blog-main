@@ -148,6 +148,7 @@ html{
     margin-top: 25px;
     line-height: 1.4;
     text-align: justify;
+    hyphens: auto;
     font-family: "Poppins", sans-serif;
 }
 
@@ -188,7 +189,7 @@ html{
 
 .fa-discord{
     font-size: 40px;
-}
+}   
 
 .fa-discord:hover{
     color: #38419D;
